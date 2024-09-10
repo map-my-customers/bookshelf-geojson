@@ -12,7 +12,7 @@ module.exports = function(db) {
     const protoProps = {};
     enrichRelationsWithGeometry(protoProps, 'belongsTo', 'belongsToMany', 'hasMany', 'hasOne');
 
-    protoProps.pluginInitialize = function() {
+    protoProps.initialize = function() {
       proto.initialize.apply(this, arguments);
 
       const geomProperty = getGeometryProperty(this);
