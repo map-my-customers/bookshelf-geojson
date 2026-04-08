@@ -1,6 +1,6 @@
 {
   "name": "bookshelf-geojson",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Automatically parse and format PostGIS geometry columns as GeoJSON in your models",
   "main": "index.js",
   "scripts": {
